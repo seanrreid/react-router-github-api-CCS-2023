@@ -12,7 +12,7 @@ export default function Homet() {
     const { issueList } = useLoaderData();
     return (
         <>
-            {/* <IssueList issueList={issueList}/> */}
+            <IssueList issueList={issueList} />
         </>
     );
 }
